@@ -3,8 +3,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
+from sbs import SBS
 from sklearn.datasets import load_iris
-from sbs import SBS  # Ensure your custom SBS class is saved as sbs.py in the same directory
+
 
 st.set_page_config(page_title="SBS Feature Selector", layout="wide")
 st.title("Sequential Backward Selection (SBS) App")
